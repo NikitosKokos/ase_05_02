@@ -1,0 +1,64 @@
+Age,Gender,Marital Status,Occupation,Monthly Income,Educational Qualifications,Family size,latitude,longitude,Pin code,Output,Feedback,
+20,Female,Single,Student,No Income,Post Graduate,4,12.9766,77.5993,560001,True,Positive
+22,Male,Single,Student,Below Rs.10000,Post Graduate,4,12.985,77.5533,560010,True,Positive
+23,Female,Single,Student,No Income,Post Graduate,4,12.9854,77.7081,560048,True,Positive
+21,Male,Single,Student,No Income,Graduate,4,12.977,77.5773,560009,True,Positive
+25,Male,Single,Student,No Income,Graduate,4,12.8988,77.5764,560078,True,Negative 
+22,Male,Single,Student,No Income,Post Graduate,4,13.0298,77.6047,560032,True,Positive
+22,Female,Single,Student,No Income,Graduate,4,12.9983,77.6409,560033,True,Positive
+23,Male,Single,Student,No Income,Graduate,4,12.9925,77.5633,560021,True,Positive
+22,Male,Single,Student,Below Rs.10000,Post Graduate,4,13.0019,77.5713,560003,True,Positive
+22,Male,Single,Student,No Income,Post Graduate,4,12.9783,77.6408,560038,True,Positive
+25,Male,Married,Employee,More than 50000,Ph.D,4,12.9261,77.6221,560034,True,Positive
+23,Female,Single,Student,No Income,Post Graduate,4,12.8988,77.5764,560078,True,Positive
+30,Male,Married,Self Employeed,More than 50000,Uneducated,4,12.9662,77.6068,560025,True,Negative 
+23,Male,Single,Student,No Income,Post Graduate,4,12.9925,77.5633,560021,True,Positive
+25,Male,Single,Student,No Income,Post Graduate,4,13.0067,77.545,560086,True,Positive
+23,Male,Single,Student,No Income,Graduate,4,12.9343,77.6044,560029,True,Positive
+24,Male,Single,Employee,10001 to 25000,Graduate,4,12.9442,77.6076,560030,True,Positive
+23,Female,Single,Student,No Income,Post Graduate,4,13.0487,77.5923,560024,True,Positive
+23,Female,Single,Student,No Income,Post Graduate,4,13.0487,77.5923,560024,True,Positive
+24,Female,Married,Employee,More than 50000,Ph.D,4,12.9438,77.5738,560004,True,Positive
+22,Male,Single,Student,No Income,Graduate,4,12.9889,77.5741,560020,True,Positive
+26,Male,Single,Student,No Income,Post Graduate,4,13.0019,77.5713,560003,True,Positive
+26,Male,Single,Student,No Income,Post Graduate,4,12.9048,77.6821,560036,True,Positive
+21,Male,Single,Student,No Income,Graduate,4,12.977,77.5773,560009,True,Positive
+24,Male,Single,Student,10001 to 25000,Post Graduate,4,12.9037,77.5376,560061,True,Positive
+24,Female,Single,Student,No Income,Post Graduate,4,12.9783,77.6408,560038,True,Positive
+21,Male,Single,Student,No Income,Post Graduate,4,12.977,77.5773,560009,True,Positive
+25,Female,Married,Employee,25001 to 50000,Graduate,4,12.9551,77.6593,560017,False,Negative 
+25,Male,Single,Student,No Income,Post Graduate,4,12.977,77.5773,560009,True,Positive
+23,Female,Single,Student,No Income,Post Graduate,4,13.0487,77.5923,560024,True,Positive
+19,Female,Single,Student,No Income,Graduate,4,12.9537,77.6176,560047,True,Positive
+22,Female,Single,Student,Below Rs.10000,Post Graduate,4,12.9343,77.6044,560029,True,Positive
+24,Female,Single,Student,No Income,Post Graduate,4,13.0496,77.4941,560073,True,Positive
+32,Male,Married,Employee,10001 to 25000,Graduate,4,12.9783,77.6408,560038,True,Positive
+22,Male,Single,Student,No Income,Post Graduate,4,12.9889,77.5741,560020,True,Positive
+23,Female,Single,Student,No Income,Post Graduate,4,13.0487,77.5923,560024,True,Positive
+23,Female,Single,Student,No Income,Post Graduate,4,13.0487,77.5923,560024,True,Positive
+25,Male,Single,Employee,10001 to 25000,Graduate,4,13.0166,77.6804,560016,True,Positive
+27,Male,Single,Employee,More than 50000,Ph.D,4,13.0503,77.5529,560013,False,Positive
+22,Female,Single,Employee,25001 to 50000,Graduate,4,12.9698,77.75,560066,True,Positive
+22,Female,Single,Employee,25001 to 50000,Graduate,4,12.8845,77.6036,560076,True,Positive
+26,Male,Married,Employee,More than 50000,Graduate,4,12.9048,77.6821,560036,True,Positive
+29,Male,Married,Employee,25001 to 50000,Graduate,4,12.9261,77.6221,560034,False,Negative 
+29,Female,Married,Employee,25001 to 50000,Graduate,4,12.9783,77.6408,560038,False,Negative 
+24,Female,Single,Employee,10001 to 25000,Post Graduate,4,12.9337,77.59,560011,True,Positive
+26,Male,Married,Employee,10001 to 25000,Graduate,4,12.9105,77.4842,560060,False,Positive
+25,Male,Married,Self Employeed,More than 50000,Post Graduate,4,13.0206,77.6479,560043,True,Positive
+23,Female,Single,Student,No Income,Post Graduate,4,13.0487,77.5923,560024,True,Positive
+23,Female,Prefer not to say,Employee,10001 to 25000,Graduate,4,12.9048,77.6821,560036,True,Positive
+23,Male,Single,Student,No Income,Graduate,4,13.0103,77.5796,560080,True,Positive
+22,Male,Single,Student,Below Rs.10000,Post Graduate,4,12.985,77.5533,560010,True,Positive
+23,Female,Single,Student,No Income,Post Graduate,4,12.9854,77.7081,560048,True,Positive
+22,Female,Single,Employee,25001 to 50000,Graduate,4,12.8845,77.6036,560076,True,Positive
+26,Male,Married,Employee,More than 50000,Graduate,4,12.9048,77.6821,560036,True,Positive
+29,Male,Married,Employee,25001 to 50000,Graduate,4,12.9261,77.6221,560034,False,Negative 
+29,Female,Married,Employee,25001 to 50000,Graduate,4,12.9783,77.6408,560038,False,Negative 
+24,Female,Single,Employee,10001 to 25000,Post Graduate,4,12.9337,77.59,560011,True,Positive
+22,Female,Single,Employee,25001 to 50000,Graduate,4,12.8845,77.6036,560076,True,Positive
+26,Male,Married,Employee,More than 50000,Graduate,4,12.9048,77.6821,560036,True,Positive
+29,Male,Married,Employee,25001 to 50000,Graduate,4,12.9261,77.6221,560034,False,Negative 
+29,Female,Married,Employee,25001 to 50000,Graduate,4,12.9783,77.6408,560038,False,Positive
+22,Male,Single,Student,Below Rs.10000,Post Graduate,4,12.985,77.5533,560010,True,Positive
+23,Female,Single,Student,No Income,Post Graduate,4,12.9854,77.7081,560048,True,Positive

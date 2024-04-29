@@ -17,7 +17,7 @@ public interface ISurveyResponseRepository
 public class SurveyResponseRepository : ISurveyResponseRepository
 {
    private string _path = "./Files/onlinefoods.csv";
-   private string _savePath = "./FamilyFiles/";
+   private string _savePath = "./FamilyFiles";
 
       private SurveyResponse ParseLine(string line){
       var cols = line.Split(',');
@@ -131,6 +131,9 @@ public class SurveyResponseRepository : ISurveyResponseRepository
 
    public bool ExportAIDataToDB(List<AITrainData> aiTrainDataList){
       try{
+         // create a new table AITrainData
+         initTable("AITrainData");
+
          MySqlConnection mySqlConnection = CreateConnection();
          mySqlConnection.Open();
 
@@ -181,6 +184,8 @@ public class SurveyResponseRepository : ISurveyResponseRepository
 
    public bool ImportToDatabase(List<SurveyResponse> surveyResponses){
       try{
+         // create a new table SurveyResponses
+         initTable("SurveyResponses");
          MySqlConnection mySqlConnection = CreateConnection();
          mySqlConnection.Open();
 
@@ -308,6 +313,49 @@ public class SurveyResponseRepository : ISurveyResponseRepository
       }catch(Exception ex){
          Console.WriteLine(ex);
          return -1;
+      }
+   }
+
+   private bool initTable(string tableName){
+      try{
+         
+         using(MySqlConnection mySqlConnection = CreateConnection()){
+            mySqlConnection.Open();
+            MySqlCommand mySqlCommand = new MySqlCommand(
+                  $"DROP TABLE IF EXISTS {tableName};", mySqlConnection);
+
+            // Execute the query
+            mySqlCommand.ExecuteNonQuery();
+         }
+
+         switch (tableName)
+         {
+            case "AITrainData":
+               using(MySqlConnection mySqlConnection = CreateConnection()){
+                  mySqlConnection.Open();
+                  MySqlCommand mySqlCommand = new MySqlCommand(
+                        "CREATE TABLE AITrainData (ID INT AUTO_INCREMENT PRIMARY KEY,Age INT,Gender VARCHAR(255),MaritalStatus VARCHAR(255),Occupation VARCHAR(255),MonthlyIncome VARCHAR(255),FamilySize INT);", mySqlConnection);
+
+                  // Execute the query
+                  mySqlCommand.ExecuteNonQuery();
+               }
+               return true;
+            case "SurveyResponses":
+               using(MySqlConnection mySqlConnection = CreateConnection()){
+                  mySqlConnection.Open();
+                  MySqlCommand mySqlCommand = new MySqlCommand(
+                        "CREATE TABLE SurveyResponses (Id INT AUTO_INCREMENT PRIMARY KEY,Age INT,Gender VARCHAR(50),MaritalStatus VARCHAR(50),Occupation VARCHAR(100),MonthlyIncome VARCHAR(100),EducationalQualifications VARCHAR(100),FamilySize INT,Latitude DOUBLE,Longitude DOUBLE,PinCode VARCHAR(20),Output BOOLEAN,Feedback VARCHAR(255));", mySqlConnection);
+
+                  // Execute the query
+                  mySqlCommand.ExecuteNonQuery();
+               }
+               return true;
+            default:
+               return false;
+         }
+      }catch(Exception ex){
+         Console.WriteLine(ex);
+         return false;
       }
    }
    private MySqlConnection CreateConnection(){

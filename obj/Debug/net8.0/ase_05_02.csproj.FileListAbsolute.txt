@@ -44,3 +44,4 @@ D:\Downloads\Howest\Semester 2\ASE\ase_05_02\bin\Debug\net8.0\runtimes\win\lib\n
 D:\Downloads\Howest\Semester 2\ASE\ase_05_02\bin\Debug\net8.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
 D:\Downloads\Howest\Semester 2\ASE\ase_05_02\obj\Debug\net8.0\ase_05_02.csproj.AssemblyReference.cache
 D:\Downloads\Howest\Semester 2\ASE\ase_05_02\obj\Debug\net8.0\ase_05_02.csproj.Up2Date
+D:\Downloads\Howest\Semester 2\ASE\ase_05_02\obj\Debug\net8.0\ase_05_02.sourcelink.json
